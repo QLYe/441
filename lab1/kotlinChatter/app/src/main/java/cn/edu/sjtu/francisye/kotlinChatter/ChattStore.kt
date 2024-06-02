@@ -16,7 +16,7 @@ object ChattStore {
     private val nFields = Chatt::class.declaredMemberProperties.size
 
     private lateinit var queue: RequestQueue
-    private const val serverUrl = "https://47.103.129.164/"
+    private const val serverUrl = "https://47.93.78.114/"
     fun postChatt(context: Context, chatt: Chatt) {
         val jsonObj = mapOf(
             "username" to chatt.username,
