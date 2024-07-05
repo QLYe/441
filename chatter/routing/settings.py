@@ -122,7 +122,7 @@ USE_TZ = True
 STATIC_URL = 'https://47.93.78.114/static/'
 STATIC_ROOT = BASE_DIR / 'static'
 
-MEDIA_URL = '/media/'
+MEDIA_URL = 'https://47.93.78.114/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 DATA_UPLOAD_MAX_MEMORY_SIZE = 10485760
 
